@@ -1,6 +1,8 @@
-v = [1,2,3,4,5,6,7,8,9,10]
+v = Array.new
 
-puts "Vetor: #{v}"
+puts "Números do array:"
+(0..9).each {|i| v[i] = i+1}
+puts "#{v}"
 
 puts "\nNúmeros maior que 5:"
 v.each do |item|
