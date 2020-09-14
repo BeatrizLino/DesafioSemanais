@@ -25,9 +25,10 @@ puts "Resultado da formula (n1+n10)/2: #{soma}"
 puts "<=====================================>"
 
 puts "\nNúmeros maior que 10:"
-v.each do |item|
-    if item > 10
-        puts item.to_i
+i=0
+
+for i in (0..9) do 
+    if v[i] > 10
+        puts "#{v[i].to_i}, na posição #{i}"
     end
 end
-
